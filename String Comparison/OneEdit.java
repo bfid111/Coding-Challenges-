@@ -3,10 +3,10 @@
 
 public class OneEdit {
 	public static void main(String[] args){
-		boolean a = check("pll","ple");
-		boolean a1 = check("pales","pale");
-		boolean a2 = check("pale","bale");
-		boolean a3 = check("pale","balke");
+		boolean a = check("plel","pll");
+		boolean a1 = check("palees","pale");
+		boolean a2 = check("pale","baele");
+		boolean a3 = check("pale","baleeeeke");
 		System.out.println(a);
 		System.out.println(a1);
 		System.out.println(a2);
@@ -17,7 +17,7 @@ public class OneEdit {
 		int counter2 = 0;
 		String a1= a.length() < a.length() ? a : b;
 		String b2= a.length() < a.length() ? b : a;
-			if(Math.abs(a1.length()-b2.length()) >1 ){
+			if(Math.abs(a1.length()-b2.length()) > 1 ){
 				return false;
 			}
 		boolean wrong = false;
@@ -28,12 +28,7 @@ public class OneEdit {
 				}
 				wrong = true;
 			}
-			if(a1.length() == b2.length()){
-				counter1++;
-			}
-			else{
-				counter1++;
-			}
+			counter1++;
 			counter2++;	
 		}while(counter1 < a1.length() && counter2 < b2.length());
 		return true;
