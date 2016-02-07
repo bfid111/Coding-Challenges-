@@ -4,7 +4,6 @@ import java.util.Arrays;
 // Checks if how many unique characters are there in a given string
 // and prints their number of occurances
 public class CheckUnique {
-	
 	public static void main(String[] args){
 	    int str = countUnique("This is a sample String.");
 		int count[] = countOccurance("This is a sample String.");
@@ -36,3 +35,22 @@ public class CheckUnique {
 		return strOccurance;
 	}
 }
+/* Sample Output
+Number of Unique Characters : 16
+"   "  count : 4
+" . "  count : 1
+" S "  count : 1
+" T "  count : 1
+" a "  count : 2
+" e "  count : 1
+" g "  count : 1
+" h "  count : 1
+" i "  count : 3
+" l "  count : 1
+" m "  count : 1
+" n "  count : 1
+" p "  count : 1
+" r "  count : 1
+" s "  count : 3
+" t "  count : 1
+*/
