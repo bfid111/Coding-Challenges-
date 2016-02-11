@@ -1,5 +1,5 @@
 // Checks if a given string is a Paldindrome
-public class StringPermutation {
+public class StringPalindrome {
 	public static void main(String[] args){
 		boolean s = checkPaldindrome("heeh");
 		boolean d = checkPaldindrome("goodoog");
