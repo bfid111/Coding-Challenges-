@@ -21,7 +21,6 @@ import java.awt.*;
 public class Driver extends JPanel
 {
    private Timer movementSet;
-   private Driver sort;
    static int delay = 100; // 250ms of delay for displaying bars 
    static int size = 30; // size of array          
    static int max = 100;
